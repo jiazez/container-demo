@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        html,
+        body,
+        .container {
+            width: 100%;
+            height: 100%;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+        }
+
+        .container {
+            display: flex;
+            flex-flow: column wrap;
+        }
+
+        .header {
+            width: 100%;
+            height: 50px;
+            background: rgb(252, 142, 108);
+        }
+
+        .wrapper {
+            flex: 1;
+            display: flex;
+            flex-flow: row nowrap;
+        }
+
+        .menu {
+            background: rgb(238, 228, 146);
+            width: 200px;
+            position: relative;
+        }
+
+        .menu-wrapper {
+            position: absolute;
+            left: 0;
+            top: 0;
+            right: 0;
+            bottom: 0;
+            overflow-y: auto;
+        }
+
+        .content {
+            flex:1;
+            background: rgb(171, 241, 165);
+            position: relative;
+        }
+
+        .content-wrapper {
+            position: absolute;
+            left: 0;
+            top: 0;
+            right: 0;
+            bottom: 0;
+            overflow-y: auto;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- 顶部固定 下方左侧固定宽 右侧自适应 -->
+    <div class="container">
+        <div class="header"> </div>
+        <div class="wrapper">
+            <div class="menu">
+                <div class="menu-wrapper">
+                    <h1>菜单</h1>
+                    <h1>菜单</h1>
+                    <h1>菜单</h1>
+                    <h1>菜单</h1>
+                    <h1>菜单</h1>
+                    <h1>菜单</h1>
+                    <h1>菜单</h1>
+                    <h1>菜单</h1>
+                    <h1>菜单</h1>
+                    <h1>菜单</h1>
+                    <h1>菜单</h1>
+                    <h1>菜单</h1>
+                    <h1>菜单</h1>
+                    <h1>菜单</h1>
+                    <h1>菜单</h1>
+                    <h1>菜单</h1>
+                    <h1>菜单</h1>
+                    <h1>菜单</h1>
+                    <h1>菜单</h1>
+                    <h1>菜单</h1>
+                </div>
+            </div>
+            <div class="content">
+                <div class="content-wrapper">
+                    <h1>内容</h1>
+                    <h1>内容</h1>
+                    <h1>内容</h1>
+                    <h1>内容</h1>
+                    <h1>内容</h1>
+                    <h1>内容</h1>
+                    <h1>内容</h1>
+                    <h1>内容</h1>
+                    <h1>内容</h1>
+                    <h1>内容</h1>
+                    <h1>内容</h1>
+                    <h1>内容</h1>
+                    <h1>内容</h1>
+                    <h1>内容</h1>
+                    <h1>内容</h1>
+                    <h1>内容</h1>
+                    <h1>内容</h1>
+                    <h1>内容</h1>
+                    <h1>内容</h1>
+                    <h1>内容</h1>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
